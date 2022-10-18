@@ -190,7 +190,7 @@ class ExtensionLivewire extends BaseLivewireComponent
     {
 
 
-        $workDir = storage_path() . "//app//" . $location;
+        $workDir = storage_path() . "/app/public/" . $location;
 
         //
         try {
